@@ -1,0 +1,65 @@
+Ubuntu 14.04中可以不用安装w32codecs，轻松播放各种音频，视频文件。
+sudo apt-get install ubuntu-restricted-extras
+sudo apt-get install gstreamer0.10-plugins-bad
+sudo apt-get install gstreamer0.10-plugins-ugly
+
+修复硬盘命令：
+locate ntfs-3g 
+sudo apt-get install ntfs-3g
+sudo ntfsfix /dev/sda6
+
+sudo -i 改变用户权限 
+按上su，然后按照提示输入相应的root密码，就可登录到root权限下。
+
+2、按上sudo su，然后按照提示输入相应的root密码，就可登录到root权限下(这个命令下，一般不需要输入相应的root密码)。
+
+3、按上su root，然后按照提示输入相应的root密码，就可登录到root权限下。
+
+root用户切换到普通用户有以下三种：
+
+1、想从root用户切回user用户只需执行命令：su user (user是你自己安装时候的用户名)，
+
+2、直接输入exit，
+
+3、Ctrl+D组合键退出
+
+ docker run -d -p 8888:8888 docker.paddlepaddle.org/book
+
+
+
+sudo apt-get build-dep python-PocketSphinx
+1
+再次安装:
+
+sudo pip install PocketSphinx --upgrade
+
+
+sudo netease-cloud-music:打开网易云音乐 
+
+
+
+    重启命令 ： 
+    1、reboot 
+    2、shutdown -r now 立刻重启
+    3、shutdown -r 10 过10分钟自动重启
+    4、shutdown -r 20:35 在时间为20:35时候重启
+
+    如果是通过shutdown命令设置重启的话，可以用shutdown -c命令取消重启 
+
+    关机命令 ： 
+    1、halt   立刻关机（一般加-p 关闭电源）
+    2、poweroff 立刻关机 
+    3、shutdown -h now 立刻关机
+    4、shutdown -h 10 10分钟后自动关机 
+
+    如果是通过shutdown命令设置关机的话，可以用shutdown -c命令取消关机
+这个是wmt14文件所在的目录:
+find: `/run/user/1000/gvfs': 权限不够
+/var/lib/docker/aufs/diff/2826dd44b1fa829c83e867979d5e5e55c15d9f42cd70ec3e4ed4d2c665824aed/book/paddle/python/paddle/v2/dataset/wmt14.py
+/var/lib/docker/aufs/diff/0b1dcfb7b24b05a05224cf09544cb03e690645e3f8e6faa094f31b890435af72/usr/local/lib/python2.7/dist-packages/paddle/dataset/wmt14.py
+/var/lib/docker/aufs/diff/0e672d9ede0f5e9da70222a663406a543f1748ff3bd83bcbd2448e3c2aadd3ce/usr/local/lib/python2.7/dist-packages/paddle/v2/dataset/wmt14.py
+/usr/local/lib/python2.7/dist-packages/paddle/v2/dataset/wmt14.py
+
+
+pyuic5 -o destination.py source.ui
+

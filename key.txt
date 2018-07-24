@@ -1,0 +1,11 @@
+AppID 10995984
+
+API Key  C65YvUTxOmr8W5LN1bfR5ozb
+Secret Key    7bd12dc85b38d8056dd32b87712a48ba
+10995984
+C65YvUTxOmr8W5LN1bfR5ozb
+7bd12dc85b38d8056dd32b87712a48ba 隐藏
+文字识别
+不需要
+百度语音
+不需
